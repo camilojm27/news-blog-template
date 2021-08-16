@@ -1,0 +1,32 @@
+:root{
+    --text-color: black;
+    --title-color: black;
+    --font-semi-bold: 600;
+    --body-color: #F1F2F3;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /*font-family: var(--body-font);*/
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+header{
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+#logo{
+    background-image: url(assets/img/logo.png);
+    height: 52px;
+    width: auto;
+}
